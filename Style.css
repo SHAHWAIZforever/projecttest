@@ -1,0 +1,430 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x:hidden;
+}
+
+.c1{
+   
+background-image: url(Assets/banner3\ 1.png);
+background-size: cover;
+background-position: center;
+ padding-bottom: 120px;
+    color: white;
+}
+.bg{
+    height: 100%;
+}
+
+@media(max-width:493px){
+    .Reviews{
+     position: absolute;
+     top: 90px !important;
+     height: 60px;
+    }
+}
+.c1>.r1{
+    background:#F8567A;
+    padding:8px 0px;
+    text-align: center;
+    font-family: 'Montserrat';
+}
+/* >>>>>>>>>> */
+nav {
+display: flex;
+align-items:center;
+justify-content: space-between;
+padding: 20px 2rem;
+background: transparent;
+font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.nav-links {
+display: flex;
+gap: 1.5rem;
+list-style: none;
+
+}
+
+.nav-links li a {
+text-decoration: none;
+color: #5F5F5F !important;
+font-weight: 200;
+
+}
+
+.hamburger {
+display: none;
+flex-direction: column;
+cursor: pointer;
+}
+
+.hamburger span {
+height: 3px;
+width: 25px;
+background: #000;
+margin-bottom: 5px;
+border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+.nav-links {
+position: absolute;
+top: 70px;
+left: 0;
+right: 0;
+flex-direction: column;
+align-items: flex-start;
+background: white;
+padding: 1rem 2rem;
+display: none;
+
+}
+
+.nav-links.active {
+display: flex;
+}
+
+.hamburger {
+display: flex;
+}
+}
+.no1navlink>h2>span{
+font-weight: lighter !important;
+}
+
+.nav-links>li>a>h3{
+font-weight: 100 !important;
+
+}
+/* .>>>>>>>>>>> */
+.c1{
+position: relative;
+
+}
+.Reviews{
+position:absolute;
+top: 60%;
+right: 0px;
+height: 160px;
+overflow: hidden;
+border: none;
+cursor: pointer;
+}
+.Reviews>img{
+height: 100%;
+}
+.c1>.r3{
+padding: 2rem 3rem;
+}
+.c1>.r3>.col-lg-6{
+color: #5F5F5F !important;
+}
+.c1>.r3>.col-lg-6>h3{
+font-weight: 100;
+}
+
+.c1>.row>.col-lg-4>.row{
+display: flex;
+padding: 0px 0rem;
+}
+.c1>.row>.col-lg-4>.row>button{
+background: #F8567A;
+color: white;
+text-transform: uppercase;
+border: none;
+border-radius: 50px;
+width:420px;
+margin: 12px;
+padding: 12px 0px;
+}
+.box{
+height: 100px;
+background:#FFF9F9CC;
+width: 100px;
+margin: 5px;
+box-sizing: border-box;
+padding: 6px;
+border-radius: 34px;
+}
+
+.inner{
+border: 1px solid #F8567A;
+height:86px;
+width:auto;
+border-radius: 30px;
+display: grid;
+place-items: center;
+}
+.inner>img{
+height: 25px;
+}
+.inner>p{
+font-size:x-small;
+text-align: center;
+color: #5F5F5F;
+font-weight: 500;
+}
+.c2{
+height: 50vh;
+}
+.ro > div {
+background: white;
+border-radius: 20px;
+width: 80%;
+padding: 1rem;
+padding-bottom: 50px;
+color: #5F5F5F;
+
+display: grid;
+place-items: center;
+
+position: absolute;
+left: 50%;
+transform: translate(-50%, -60px); /* combine X and Y centering */
+z-index: 2;
+}
+@media(min-width:900px){
+.rowbox{
+padding: 0rem 3rem;
+}
+}
+.ro>div>h3{
+display:flex;
+align-items: baseline;
+overflow: hidden;
+padding: 10px;
+}
+.ro>div>h3>img{
+transform: translateY(6px);
+}
+.nametag{
+position: absolute;
+left: 10px;
+bottom: 10px;
+}
+/* >>>>>>>>>>> */
+.c2{
+background:#E9A9B9
+;
+height: 40vh;
+}
+.c2>.r2{
+
+display: flex;
+flex-wrap: wrap;
+padding: 0rem 3.2rem;
+justify-content: space-around;
+transform: translateY(130px);
+}
+@media(max-width:670px){
+.c2>.r2{
+transform: translateY(240px);
+}   
+.c2{
+height:52vh;
+}
+}
+.c2>.r2>img{
+height: 40px;
+margin: 10px;
+}
+
+/* >>>>>>>>>>>>>>. */
+.c3
+{
+padding:2rem 2rem;
+}
+.c3>.row>h1{
+color: #F8567A;
+text-align: center;
+}
+.c3>.r2{
+display: flex;
+align-items: center;
+flex-wrap: wrap;
+justify-content: space-around;
+}
+.c3>.r2>div>h2{
+color: #F8567A;
+
+}
+.c3>.r2>div{
+margin: 10px;
+width: 500px;
+
+}
+.c3>.r2>div>p{
+width: 400px;
+color: #5F5F5F;
+}
+.c3>.r2>div>img{
+height: 300px;
+
+}
+.c3>.r3{
+margin-top: 70px;
+}
+.c3>.r3>div>h2{
+color: #F8567A;
+}
+.c3>.r3>div>p{
+color: #5F5F5F;
+}
+.c3>.r3>div{
+background:#FFF5F6;
+padding: 2%;
+width: 80%;
+place-self: center;
+text-align: center;
+border-radius: 20px;
+border: 1px solid #5F5F5F;
+border-style: dashed;
+}
+
+.content-row {
+    max-width: 1500px;
+    place-self: center;
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh; /* Optional: full screen height */
+    padding: 1rem 2rem;
+    overflow: hidden;
+  }
+
+  .text-side, .image-side {
+    flex: 1;
+    box-sizing: border-box;
+
+    overflow: hidden;
+  }
+  .text-side{
+    padding: 1rem;
+    color:#5F5F5F;
+  }
+  .text-side>div>h1>big{
+    color: #F8567A;
+  }
+  .text-side {
+    background-color:#FFE5E9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .image-side img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+
+  @media (max-width: 768px) {
+    .content-row {
+      flex-direction: column;
+    }
+
+    .text-side,
+    .image-side {
+      height: 50vh;
+    }
+  }
+
+  /* >>>>>>>> */
+  .c5>.row{
+    text-align: center;
+    color: #5F5F5F;
+    padding: 1rem 1rem;
+  }
+  .c5>.row>h1>big{
+    color: #F8567A;
+  }
+
+  /* >>>>>>>>>>>>> */
+  .section{
+    display: flex;
+    flex-wrap: wrap;
+justify-content: space-around;
+    width: 100%;
+   
+  }
+ 
+  /* >>>>>>> */
+  .imp{
+    display: flex;
+    place-self: center;
+  }
+  .imp>.text{
+    text-align: right;
+    padding: 10px;
+    color: #5F5F5F;
+    height: fit-content;
+    
+  }
+  .imp>.text>p{
+    font-size:medium;
+    width: 240px;
+  }
+  .imp>.abox{
+    padding: 6px;
+    height: 100px;
+    width: 100px ;
+    background:#FFF5F6;
+    border-radius: 32px;
+  }
+  .abox>div{
+    border-radius: 30px;
+    border: 1px solid #F8567A;
+    width: auto;
+    height: 96px;
+    display: grid;
+    place-items: center;
+  }
+  .abox>div>img{
+    height: 70%;
+  }
+  .impgrid{
+    display: grid;
+    place-items: center;
+  
+  }
+  .impgrid{
+    display: grid;
+    place-items: center;
+    text-align: center;
+  }
+.impgrid>.text{
+    text-align: center !important;
+}
+.textr{
+    text-align: left !important;
+
+}
+.imp>.text>h4{
+    margin-bottom: 5px;
+}
+
+/* >>>>>>>>>>>>>>>>> */
+
+footer{
+    background: #E9A9B9;
+    display: grid;
+    place-items: center;
+}
+footer h1{
+    padding-top: 50px;
+color: white;
+place-self: center;
+text-align: center;
+}
+footer>button{
+    background:#F8567A;
+    color: white;
+    padding: 20px 60px;
+    border-radius: 50px;
+    border: none;
+    font-weight: 700;
+   
+}
