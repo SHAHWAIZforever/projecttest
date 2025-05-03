@@ -209,6 +209,7 @@ bottom: 10px;
 background:#E9A9B9
 ;
 height: 40vh;
+overflow: hidden;
 }
 .c2>.r2{
 
@@ -347,14 +348,18 @@ border-style: dashed;
     display: flex;
     flex-wrap: wrap;
 justify-content: space-around;
-    width: 100%;
+    width: 90%;
+    place-self: center;
    
   }
- 
+  .section>div{
+    
+  }
   /* >>>>>>> */
   .imp{
     display: flex;
     place-self: center;
+    
   }
   .imp>.text{
     text-align: right;
@@ -363,6 +368,7 @@ justify-content: space-around;
     height: fit-content;
     
   }
+
   .imp>.text>p{
     font-size:medium;
     width: 240px;
@@ -428,3 +434,16 @@ footer>button{
     font-weight: 700;
    
 }
+
+@media(max-width:600px){
+    .imp{
+        display: grid;
+        place-items: center;
+    }
+    .imp>.text{
+        text-align: center;
+      }
+      .inner>p{
+        font-size: xx-small;
+      }
+  }
