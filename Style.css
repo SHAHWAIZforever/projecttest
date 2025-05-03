@@ -12,6 +12,21 @@ background-position: center;
  padding-bottom: 120px;
     color: white;
 }
+body{
+  font-family: 'Questrial';
+}
+h1{
+  font-family: 'Fraunces', sans-serif; 
+  font-weight: 400;
+}
+h2{
+  font-family: 'Fraunces', sans-serif; 
+  font-weight: 400;
+
+}
+.dream{
+  font-family: 'Questrial';
+}
 .bg{
     height: 100%;
 }
