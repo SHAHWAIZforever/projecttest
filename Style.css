@@ -58,11 +58,12 @@ font-weight: 200;
 display: none;
 flex-direction: column;
 cursor: pointer;
+transform: translateY(-10px);
 }
 
 .hamburger span {
-    transform:translateY(10px);
 height: 3px;
+
 width: 25px;
 background: #000;
 margin-bottom: 5px;
@@ -220,14 +221,7 @@ padding: 0rem 3.2rem;
 justify-content: space-around;
 transform: translateY(130px);
 }
-@media(max-width:670px){
-.c2>.r2{
-transform: translateY(240px);
-}   
-.c2{
-height:65vh;
-}
-}
+
 .c2>.r2>img{
 height: 40px;
 margin: 10px;
@@ -448,3 +442,11 @@ footer>button{
         font-size: xx-small;
       }
   }
+  @media(max-width:670px){
+    .c2>.r2{
+    transform: translateY(240px);
+    }   
+    .c2{
+    height:70vh;
+    }
+    }
