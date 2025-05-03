@@ -464,4 +464,7 @@ footer>button{
     .c2{
     height:70vh;
     }
+    *{
+      text-align: center !important;
+    }
     }
